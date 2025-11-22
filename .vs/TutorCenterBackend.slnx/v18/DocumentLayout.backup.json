@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\TutorCenterBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC9334F-32F2-4885-A5EF-EDD0982E8606}|TutorCenterBackend.Presentation\\TutorCenterBackend.Presentation.csproj|e:\\tutorcenterbackend\\tutorcenterbackend.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AFC9334F-32F2-4885-A5EF-EDD0982E8606}|TutorCenterBackend.Presentation\\TutorCenterBackend.Presentation.csproj|solutionrelative:tutorcenterbackend.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51E10587-54D1-4C1A-AE40-26E5A2B962F4}|TutorCenterBackend.Infrastructrue\\TutorCenterBackend.Infrastructrue.csproj|e:\\tutorcenterbackend\\tutorcenterbackend.infrastructrue\\externalservices\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51E10587-54D1-4C1A-AE40-26E5A2B962F4}|TutorCenterBackend.Infrastructrue\\TutorCenterBackend.Infrastructrue.csproj|solutionrelative:tutorcenterbackend.infrastructrue\\externalservices\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51E10587-54D1-4C1A-AE40-26E5A2B962F4}|TutorCenterBackend.Infrastructrue\\TutorCenterBackend.Infrastructrue.csproj|e:\\tutorcenterbackend\\tutorcenterbackend.infrastructrue\\repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51E10587-54D1-4C1A-AE40-26E5A2B962F4}|TutorCenterBackend.Infrastructrue\\TutorCenterBackend.Infrastructrue.csproj|solutionrelative:tutorcenterbackend.infrastructrue\\repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC4C93E-B76E-4D77-8A4C-1903D208F8C0}|TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj|e:\\tutorcenterbackend\\tutorcenterbackend.application\\mappings\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC4C93E-B76E-4D77-8A4C-1903D208F8C0}|TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj|solutionrelative:tutorcenterbackend.application\\mappings\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC4C93E-B76E-4D77-8A4C-1903D208F8C0}|TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj|e:\\tutorcenterbackend\\tutorcenterbackend.application\\dtos\\responses\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC4C93E-B76E-4D77-8A4C-1903D208F8C0}|TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj|solutionrelative:tutorcenterbackend.application\\dtos\\responses\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC4C93E-B76E-4D77-8A4C-1903D208F8C0}|TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj|e:\\tutorcenterbackend\\tutorcenterbackend.application\\dtos\\requests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC4C93E-B76E-4D77-8A4C-1903D208F8C0}|TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj|solutionrelative:tutorcenterbackend.application\\dtos\\requests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC4C93E-B76E-4D77-8A4C-1903D208F8C0}|TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj|e:\\tutorcenterbackend\\tutorcenterbackend.application\\servicesimplementation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC4C93E-B76E-4D77-8A4C-1903D208F8C0}|TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj|solutionrelative:tutorcenterbackend.application\\servicesimplementation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC4C93E-B76E-4D77-8A4C-1903D208F8C0}|TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj|e:\\tutorcenterbackend\\tutorcenterbackend.application\\interfaces\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC4C93E-B76E-4D77-8A4C-1903D208F8C0}|TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj|solutionrelative:tutorcenterbackend.application\\interfaces\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F54D786-7E49-4E74-BCD2-70E3ABE0BE8C}|TutorCenterBackend.Domain\\TutorCenterBackend.Domain.csproj|e:\\tutorcenterbackend\\tutorcenterbackend.domain\\interfaces\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F54D786-7E49-4E74-BCD2-70E3ABE0BE8C}|TutorCenterBackend.Domain\\TutorCenterBackend.Domain.csproj|solutionrelative:tutorcenterbackend.domain\\interfaces\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F54D786-7E49-4E74-BCD2-70E3ABE0BE8C}|TutorCenterBackend.Domain\\TutorCenterBackend.Domain.csproj|e:\\tutorcenterbackend\\tutorcenterbackend.domain\\constants\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F54D786-7E49-4E74-BCD2-70E3ABE0BE8C}|TutorCenterBackend.Domain\\TutorCenterBackend.Domain.csproj|solutionrelative:tutorcenterbackend.domain\\constants\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC4C93E-B76E-4D77-8A4C-1903D208F8C0}|TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj|e:\\tutorcenterbackend\\tutorcenterbackend.application\\tutorcenterbackend.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CDC4C93E-B76E-4D77-8A4C-1903D208F8C0}|TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj|solutionrelative:tutorcenterbackend.application\\tutorcenterbackend.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC9334F-32F2-4885-A5EF-EDD0982E8606}|TutorCenterBackend.Presentation\\TutorCenterBackend.Presentation.csproj|e:\\tutorcenterbackend\\tutorcenterbackend.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC9334F-32F2-4885-A5EF-EDD0982E8606}|TutorCenterBackend.Presentation\\TutorCenterBackend.Presentation.csproj|solutionrelative:tutorcenterbackend.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 208,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\TutorCenterBackend\\TutorCenterBackend.Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "TutorCenterBackend.Presentation\\appsettings.json",
+              "ToolTip": "E:\\TutorCenterBackend\\TutorCenterBackend.Presentation\\appsettings.json",
+              "RelativeToolTip": "TutorCenterBackend.Presentation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-22T14:48:55.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\TutorCenterBackend\\TutorCenterBackend.Infrastructrue\\ExternalServices\\Class1.cs",
+              "RelativeDocumentMoniker": "TutorCenterBackend.Infrastructrue\\ExternalServices\\Class1.cs",
+              "ToolTip": "E:\\TutorCenterBackend\\TutorCenterBackend.Infrastructrue\\ExternalServices\\Class1.cs",
+              "RelativeToolTip": "TutorCenterBackend.Infrastructrue\\ExternalServices\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:43:56.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\TutorCenterBackend\\TutorCenterBackend.Infrastructrue\\Repositories\\Class1.cs",
+              "RelativeDocumentMoniker": "TutorCenterBackend.Infrastructrue\\Repositories\\Class1.cs",
+              "ToolTip": "E:\\TutorCenterBackend\\TutorCenterBackend.Infrastructrue\\Repositories\\Class1.cs",
+              "RelativeToolTip": "TutorCenterBackend.Infrastructrue\\Repositories\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:43:28.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\TutorCenterBackend\\TutorCenterBackend.Application\\Mappings\\Class1.cs",
+              "RelativeDocumentMoniker": "TutorCenterBackend.Application\\Mappings\\Class1.cs",
+              "ToolTip": "E:\\TutorCenterBackend\\TutorCenterBackend.Application\\Mappings\\Class1.cs",
+              "RelativeToolTip": "TutorCenterBackend.Application\\Mappings\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:41:48.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\TutorCenterBackend\\TutorCenterBackend.Application\\DTOs\\Responses\\Class1.cs",
+              "RelativeDocumentMoniker": "TutorCenterBackend.Application\\DTOs\\Responses\\Class1.cs",
+              "ToolTip": "E:\\TutorCenterBackend\\TutorCenterBackend.Application\\DTOs\\Responses\\Class1.cs",
+              "RelativeToolTip": "TutorCenterBackend.Application\\DTOs\\Responses\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:41:16.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\TutorCenterBackend\\TutorCenterBackend.Application\\DTOs\\Requests\\Class1.cs",
+              "RelativeDocumentMoniker": "TutorCenterBackend.Application\\DTOs\\Requests\\Class1.cs",
+              "ToolTip": "E:\\TutorCenterBackend\\TutorCenterBackend.Application\\DTOs\\Requests\\Class1.cs",
+              "RelativeToolTip": "TutorCenterBackend.Application\\DTOs\\Requests\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:41:11.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\TutorCenterBackend\\TutorCenterBackend.Application\\ServicesImplementation\\Class1.cs",
+              "RelativeDocumentMoniker": "TutorCenterBackend.Application\\ServicesImplementation\\Class1.cs",
+              "ToolTip": "E:\\TutorCenterBackend\\TutorCenterBackend.Application\\ServicesImplementation\\Class1.cs",
+              "RelativeToolTip": "TutorCenterBackend.Application\\ServicesImplementation\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:40:28.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\TutorCenterBackend\\TutorCenterBackend.Application\\Interfaces\\Class1.cs",
+              "RelativeDocumentMoniker": "TutorCenterBackend.Application\\Interfaces\\Class1.cs",
+              "ToolTip": "E:\\TutorCenterBackend\\TutorCenterBackend.Application\\Interfaces\\Class1.cs",
+              "RelativeToolTip": "TutorCenterBackend.Application\\Interfaces\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:39:32.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\TutorCenterBackend\\TutorCenterBackend.Domain\\Interfaces\\Class1.cs",
+              "RelativeDocumentMoniker": "TutorCenterBackend.Domain\\Interfaces\\Class1.cs",
+              "ToolTip": "E:\\TutorCenterBackend\\TutorCenterBackend.Domain\\Interfaces\\Class1.cs",
+              "RelativeToolTip": "TutorCenterBackend.Domain\\Interfaces\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:39:06.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\TutorCenterBackend\\TutorCenterBackend.Domain\\Constants\\Class1.cs",
+              "RelativeDocumentMoniker": "TutorCenterBackend.Domain\\Constants\\Class1.cs",
+              "ToolTip": "E:\\TutorCenterBackend\\TutorCenterBackend.Domain\\Constants\\Class1.cs",
+              "RelativeToolTip": "TutorCenterBackend.Domain\\Constants\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:39:00.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TutorCenterBackend.Application",
+              "DocumentMoniker": "E:\\TutorCenterBackend\\TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj",
+              "RelativeDocumentMoniker": "TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj",
+              "ToolTip": "E:\\TutorCenterBackend\\TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj",
+              "RelativeToolTip": "TutorCenterBackend.Application\\TutorCenterBackend.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-22T14:36:30.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:31:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\TutorCenterBackend\\TutorCenterBackend.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "TutorCenterBackend.Presentation\\Program.cs",
+              "ToolTip": "E:\\TutorCenterBackend\\TutorCenterBackend.Presentation\\Program.cs",
+              "RelativeToolTip": "TutorCenterBackend.Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:35:33.366Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

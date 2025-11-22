@@ -1,0 +1,6 @@
+@TutorCenterBackend.Presentation_HostAddress = http://localhost:5038
+
+GET {{TutorCenterBackend.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
