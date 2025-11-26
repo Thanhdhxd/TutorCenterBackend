@@ -5,6 +5,6 @@
   </Folder>
   <Project Path="TutorCenterBackend.Application/TutorCenterBackend.Application.csproj" />
   <Project Path="TutorCenterBackend.Domain/TutorCenterBackend.Domain.csproj" />
-  <Project Path="TutorCenterBackend.Infrastructrue/TutorCenterBackend.Infrastructrue.csproj" />
+  <Project Path="TutorCenterBackend.Infrastructure/TutorCenterBackend.Infrastructure.csproj" />
   <Project Path="TutorCenterBackend.Presentation/TutorCenterBackend.Presentation.csproj" />
 </Solution>
