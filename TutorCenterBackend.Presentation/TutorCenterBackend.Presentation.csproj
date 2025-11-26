@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TutorCenterBackend.Application\TutorCenterBackend.Application.csproj" />
-    <ProjectReference Include="..\TutorCenterBackend.Infrastructrue\TutorCenterBackend.Infrastructrue.csproj" />
+    <ProjectReference Include="..\TutorCenterBackend.Infrastructure\TutorCenterBackend.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
