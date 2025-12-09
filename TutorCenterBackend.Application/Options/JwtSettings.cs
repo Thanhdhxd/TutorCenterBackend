@@ -1,4 +1,4 @@
-namespace TutorCenterBackend.Infrastructure.Options
+namespace TutorCenterBackend.Application.Options
 {
     public class JwtSettings
     {
@@ -9,4 +9,3 @@ namespace TutorCenterBackend.Infrastructure.Options
         public int RefreshTokenDays { get; set; } = 30;
     }
 }
-    

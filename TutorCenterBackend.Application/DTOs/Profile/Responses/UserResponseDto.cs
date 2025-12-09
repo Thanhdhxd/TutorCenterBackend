@@ -1,4 +1,4 @@
-﻿namespace TutorCenterBackend.Application.DTOs.Auth.Responses
+﻿namespace TutorCenterBackend.Application.DTOs.Profile.Responses
 {
     public class UserResponseDto
     {

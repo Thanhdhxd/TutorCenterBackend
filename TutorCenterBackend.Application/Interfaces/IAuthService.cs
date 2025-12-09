@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TutorCenterBackend.Application.DTOs.Auth.Requests;
+using TutorCenterBackend.Application.DTOs.Auth.Responses;
 
 namespace TutorCenterBackend.Application.Interfaces
 {
     public interface IAuthService
     {
-        //Task SendOtpRegisterAsync(SendOtpRegisterRequestDto dto, CancellationToken ct = default);
-        //Task<AuthTokensDto> RegisterAsync(RegisterRequestDto dto, CancellationToken ct = default);
-        //Task<AuthTokensDto> LoginAsync(LoginRequestDto dto, CancellationToken ct = default);
-        //Task<AuthTokensDto> RefreshAsync(RefreshTokenRequestDto dto, CancellationToken ct = default);
-        //Task LogoutAsync(LogoutRequestDto dto, CancellationToken ct = default);
-        //Task ForgotPasswordAsync(ForgotPasswordRequestDto dto, CancellationToken ct = default);
-        //Task ResetPasswordAsync(ResetPasswordRequestDto dto, CancellationToken ct = default);
+        Task<string> SendOtpRegisterAsync(SendOtpRegisterRequestDto dto, CancellationToken ct = default);
+        Task<string> RegisterAsync(RegisterRequestDto dto, CancellationToken ct = default);
+        Task<LoginResponseDto> LoginAsync(LoginRequestDto dto, CancellationToken ct = default);
+        Task<RefreshTokenResponseDto> RefreshTokenAsync(RefreshTokenRequestDto dto, CancellationToken ct = default);
+        Task<string> LogoutAsync(LogoutRequestDto dto, CancellationToken ct = default);
+        Task<string> ForgotPasswordAsync(ForgotPasswordRequestDto dto, CancellationToken ct = default);
+        Task<string> ResetPasswordAsync(ResetPasswordRequestDto dto, CancellationToken ct = default);
     }
 }

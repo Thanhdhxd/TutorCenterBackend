@@ -19,6 +19,9 @@ namespace TutorCenterBackend.Application
             // Register Application Services (Business Logic Layer)
             services.AddScoped<IRoleManagementService, RoleManagementService>();
             services.AddScoped<IPermissionManagementService, PermissionManagementService>();
+            services.AddScoped<IPermissionService, PermissionService>();
+            services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IProfileService, ProfileService>();
 
             return services;
         }

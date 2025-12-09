@@ -1,19 +1,18 @@
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using TutorCenterBackend.Application.Interfaces;
-using TutorCenterBackend.Infrastructure.DataAccess;
+using TutorCenterBackend.Domain.Interfaces;
 
-namespace TutorCenterBackend.Infrastructure.ExternalServices;
+namespace TutorCenterBackend.Application.ServicesImplementation;
 
 public class PermissionService : IPermissionService
 {
-    private readonly AppDbContext _context;
+    private readonly IUserRepository _userRepository;
     private readonly IMemoryCache _cache;
     private readonly TimeSpan _cacheExpiration = TimeSpan.FromMinutes(15);
 
-    public PermissionService(AppDbContext context, IMemoryCache cache)
+    public PermissionService(IUserRepository userRepository, IMemoryCache cache)
     {
-        _context = context;
+        _userRepository = userRepository;
         _cache = cache;
     }
 
@@ -32,16 +31,8 @@ public class PermissionService : IPermissionService
             return cachedPermissions;
         }
 
-        // Query permissions from database through user's role
-        var permissions = await _context.Users
-            .Where(u => u.UserId == userId && u.IsActive)
-            .Select(u => u.Role)
-            .SelectMany(r => r.Permissions)
-            .Select(p => p.PermissionName)
-            .Distinct()
-            .ToListAsync();
+        var permissions = (await _userRepository.GetUserPermissionsAsync(userId)).ToList();
 
-        // Cache the result
         _cache.Set(cacheKey, permissions, _cacheExpiration);
 
         return permissions;

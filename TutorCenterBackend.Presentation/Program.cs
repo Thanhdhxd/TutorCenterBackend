@@ -4,6 +4,9 @@ using TutorCenterBackend.Infrastructure;
 using TutorCenterBackend.Infrastructure.DataAccess;
 using TutorCenterBackend.Presentation.Middlewares;
 using TutorCenterBackend.Presentation.Filters;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,8 +19,35 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Memory Cache for permissions
 builder.Services.AddMemoryCache();
 
+// Add HttpContextAccessor
+builder.Services.AddHttpContextAccessor();
+
+// JWT Authentication Configuration
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    var jwtSettings = builder.Configuration.GetSection("Jwt");
+    var secretKey = jwtSettings["Key"];
+    
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwtSettings["Issuer"],
+        ValidAudience = jwtSettings["Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey!)),
+        ClockSkew = TimeSpan.Zero
+    };
+});
+
 // Register Infrastructure layer (Repositories & Data Access Services)
-builder.Services.AddInfrastructure();
+builder.Services.AddInfrastructure(builder.Configuration);
 
 // Register Application layer (Business Logic Services, AutoMapper & FluentValidation)
 builder.Services.AddApplication();
